@@ -1,21 +1,15 @@
+import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import {
+    Avatar,
     Box,
     Flex,
-    Avatar,
     HStack,
-    Text,
     IconButton,
-    Button,
     Menu,
     MenuButton,
-    MenuList,
-    MenuItem,
-    MenuDivider,
-    useDisclosure,
-    useColorModeValue,
     Stack,
+    useDisclosure,
 } from "@chakra-ui/react";
-import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { Link } from "react-router-dom";
 
 const Links = [
@@ -54,7 +48,11 @@ export default function Header() {
                             display={{ base: "none", md: "flex" }}
                         >
                             {Links.map((ele) => (
-                                <Link key={ele.link} to={ele.link}>
+                                <Link
+                                    key={ele.link}
+                                    to={ele.link}
+                                    className="font-bold"
+                                >
                                     {ele.name}
                                 </Link>
                             ))}
@@ -78,7 +76,12 @@ export default function Header() {
                     <Box pb={4} display={{ md: "none" }}>
                         <Stack as={"nav"} spacing={4}>
                             {Links.map((ele) => (
-                                <Link key={ele.link} to={ele.link}>
+                                <Link
+                                    key={ele.link}
+                                    to={ele.link}
+                                    onClick={onClose}
+                                    className="font-bold"
+                                >
                                     {ele.name}
                                 </Link>
                             ))}

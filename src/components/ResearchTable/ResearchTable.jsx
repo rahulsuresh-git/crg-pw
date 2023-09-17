@@ -1,15 +1,13 @@
-import React from "react";
 import {
     Table,
-    Thead,
-    Tbody,
-    Tfoot,
-    Tr,
-    Th,
-    Td,
-    TableCaption,
     TableContainer,
+    Tbody,
+    Td,
+    Th,
+    Thead,
+    Tr,
 } from "@chakra-ui/react";
+import React from "react";
 
 export default function ResearchTable({ data }) {
     return (

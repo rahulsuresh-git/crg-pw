@@ -1,21 +1,10 @@
+import { ScaleFade, Text } from "@chakra-ui/react";
 import React from "react";
-import { Link } from "react-router-dom";
 import Hero from "../../components/Hero/Hero";
-import Section from "../../components/Section/Section";
-import {
-    Heading,
-    Input,
-    InputGroup,
-    InputLeftElement,
-    ScaleFade,
-    Stack,
-    Text,
-} from "@chakra-ui/react";
-import { SearchIcon } from "@chakra-ui/icons";
-import ResearchSearchSection from "../../components/ResearchSearchSection/ResearchSearchSection";
-import TitleDescriptionSection from "../../components/TitleDescriptionSection/TitleDescriptionSection";
 import Image from "../../components/Image/Image";
-import Header from "../../components/Header/Header";
+import ResearchSearchSection from "../../components/ResearchSearchSection/ResearchSearchSection";
+import Section from "../../components/Section/Section";
+import TitleDescriptionSection from "../../components/TitleDescriptionSection/TitleDescriptionSection";
 
 export default function Home() {
     return (
@@ -56,6 +45,8 @@ export default function Home() {
                             <Image
                                 src={require("../../assets/image-1.jpg")}
                                 width="100%"
+                                height="230px"
+                                alt="mountains"
                             ></Image>
                         </div>
                     </div>
@@ -93,6 +84,8 @@ export default function Home() {
                             <Image
                                 src={require("../../assets/image-2.png")}
                                 width="100%"
+                                height="230px"
+                                alt="chat"
                             ></Image>
                         </div>
                     </div>

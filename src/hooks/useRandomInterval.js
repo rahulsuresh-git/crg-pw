@@ -1,4 +1,5 @@
 import React from "react";
+
 // Utility helper for random number generation
 export const random = (min, max) =>
     Math.floor(Math.random() * (max - min)) + min;

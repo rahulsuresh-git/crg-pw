@@ -1,18 +1,12 @@
+import { ChakraProvider } from "@chakra-ui/react";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {
-    BrowserRouter,
-    createBrowserRouter,
-    Route,
-    RouterProvider,
-    Routes,
-} from "react-router-dom";
-import "./index.css";
-import Home from "./pages/Home/Home";
-import { ChakraProvider } from "@chakra-ui/react";
-import Conference from "./pages/Conference/Conference";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Root from "./components/Root/Root";
 import AppTheme from "./extras/theme";
+import "./index.css";
+import Conference from "./pages/Conference/Conference";
+import Home from "./pages/Home/Home";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 // const router = createBrowserRouter([

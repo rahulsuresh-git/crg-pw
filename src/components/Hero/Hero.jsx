@@ -1,7 +1,6 @@
-import { Heading, Icon, Text } from "@chakra-ui/react";
-import React from "react";
-import { Button, ButtonGroup } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
+import { Button, Heading, Text } from "@chakra-ui/react";
+import React from "react";
 import Sparkles from "../Sparkles/Sparkles";
 
 export default function Hero() {

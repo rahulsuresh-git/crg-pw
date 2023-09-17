@@ -1,15 +1,7 @@
-import { Box, ChakraProvider, Heading, Text } from "@chakra-ui/react";
-import React, { useEffect } from "react";
-import {
-    Tag,
-    TagLabel,
-    TagLeftIcon,
-    TagRightIcon,
-    TagCloseButton,
-} from "@chakra-ui/react";
+import { Box, Heading, Text } from "@chakra-ui/react";
+import React from "react";
 import ConferenceTag from "../../components/ConferenceTag/ConferenceTag";
 import ResearchPaperConnection from "../../components/ResearchPaperConnection/ResearchPaperConnection";
-import CustomTable from "../../components/ResearchTable/ResearchTable";
 import ResearchTable from "../../components/ResearchTable/ResearchTable";
 
 const RESEARCH_TREND_DATA = [

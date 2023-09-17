@@ -1,5 +1,4 @@
-import { Avatar, Text } from "@chakra-ui/react";
-import { Heading } from "@chakra-ui/react";
+import { Heading, Text } from "@chakra-ui/react";
 import React from "react";
 
 const RESEARCH_PAPER_DATA = [
