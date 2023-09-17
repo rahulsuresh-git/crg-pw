@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/crg-pw/static/css/main.c5787c43.css",
-    "main.js": "/crg-pw/static/js/main.68b77e90.js",
+    "main.js": "/crg-pw/static/js/main.d868f0c3.js",
     "static/media/image-1.jpg": "/crg-pw/static/media/image-1.ebb9264803d8266a4013.jpg",
     "static/media/image-2.png": "/crg-pw/static/media/image-2.e68943a5c6fb44a83e53.png",
     "index.html": "/crg-pw/index.html",
     "main.c5787c43.css.map": "/crg-pw/static/css/main.c5787c43.css.map",
-    "main.68b77e90.js.map": "/crg-pw/static/js/main.68b77e90.js.map"
+    "main.d868f0c3.js.map": "/crg-pw/static/js/main.d868f0c3.js.map"
   },
   "entrypoints": [
     "static/css/main.c5787c43.css",
-    "static/js/main.68b77e90.js"
+    "static/js/main.d868f0c3.js"
   ]
 }
